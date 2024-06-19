@@ -1,0 +1,147 @@
+
+.content_login{
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content_form{
+
+  position: relative;
+    width: 800px;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+  .form{
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+    transform: translateX(40px);
+  
+    backdrop-filter: blur(10px); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: -10px -10px 30px #24242469;
+  }
+  .form h1{
+    font-size: 30px;
+    text-align: center;
+    height: 20%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .content_logo{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  
+  }
+  .logo{
+
+    background-image: url("../../assets/image/tecnologia-fondo-toque-humano-nueva-version-moderna-creacion-adan-removebg-preview.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    
+     
+  }
+  .content_input{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    justify-content: end;
+
+  }
+  .name{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .name p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: cornflowerblue;
+  }
+
+  .input_group{
+    width: 80%;
+    height: auto;
+    margin: 5px;
+    border: 1px #2424241a solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+  }
+  .input_container:focus{
+   border: 1px red solid;
+  }
+  .form input{
+   width: 90%;
+   height: 35px;
+   border-radius: 5px;
+   border: 0px;
+
+  }
+  .form input:focus{
+    outline:none;
+  }
+  
+
+  .icon_user{
+    width: 10%;
+    font-size: 20px;
+    
+  }
+  .form button{
+    width: 80%;
+    height: 35px;
+    background-color: rgb(77, 134, 240);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .form button:hover{
+ 
+    background-color: rgb(33, 97, 218);
+
+  }
+  .content_img{
+    width: 50%;
+    height: 95%;
+    background-color: #242424;
+    border-radius: 10px;
+    background-image: url("../../assets/image/pexels-pixabay-60008.jpg");
+    background-size: cover;
+
+  }
+
+
+

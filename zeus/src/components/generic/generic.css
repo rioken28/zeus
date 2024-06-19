@@ -1,0 +1,70 @@
+.msj{
+   
+    width: 500px;
+    height: 40px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: 1s;
+    border-radius: 5px;
+    
+    position: absolute;
+    transform: rotateX(90deg);
+    z-index: 50;
+
+  
+}
+
+.comprobacion{
+
+  padding: 10px;
+  width: 350px;
+  height: 120px;
+  position: absolute;
+  margin: 20px;
+  box-shadow: 5px 10px 10px #24242473;
+  z-index: 51;
+  background-color: white;
+  border: 1px black solid;
+}
+
+.mensaje{
+ 
+  width: 100%;
+  height: 50%;
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botones{
+
+  width: 100%;
+  height: 50%;
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botones button{
+  width: 100px;
+  margin: 10px;
+  height: 30px;
+  border: 0px;
+  box-shadow: 1px 1px 1px #24242473;
+ 
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.accept{
+  background-color: blue;
+}
+.cancel{
+  background-color: red;
+}

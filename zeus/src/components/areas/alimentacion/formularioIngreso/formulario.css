@@ -1,0 +1,179 @@
+.formIngreso{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 800px;
+    z-index: 50;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 40px #2e2e2e;
+    border-radius: 10px;
+}
+
+.head{
+   
+    height: 15%;
+    background-color:  #445c81;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.head h1{
+   
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 28px;
+ 
+}
+.cerrar{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    margin: 10px;
+    
+}
+
+.icon_close{
+   
+    font-weight: 800;
+    font-size: 25px;
+    transition: .2s;
+   
+}
+.icon_close:hover{
+   
+    cursor: pointer;
+    color: red;
+   
+}
+.cuerpo{
+
+    height: 85%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.cuerpo .inp1{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 70px;
+    margin-bottom: 5px;
+    
+}
+.title_inpt{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 40%;
+}
+
+.cuerpo input{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 60%;
+    border: 1px #0263a3 solid;
+    color: #000000;
+    
+}
+.cuerpo input:focus, select:focus{
+
+    outline-color: #0263a3;
+}
+
+
+.cuerpo_bottom{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    
+  
+}
+
+.cuerpo_left{
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.select1{
+  
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+     
+    
+}
+.select2{
+   
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin: 0%;
+    
+}
+.cuerpo_left select{
+   
+    width: 100%;
+    height: 60%;
+    border: 1px #0263a3 solid;
+    
+  
+}
+
+.cuerpo_right{
+ 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cuerpo_right select{
+    width: 100%;
+    height: 60%;
+
+    border: 1px #0263a3 solid;
+    
+  
+}
+.cuerpo_right button{
+    width: 100%;
+    height: 36px;
+    
+    background-color:  #445c81;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px #000000 solid;
+}
+.cuerpo_right button:hover{
+   
+    background-color: #024979;
+}
+
+.icon_load{
+    font-size: 17px;
+    margin: 5px;
+}

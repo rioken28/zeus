@@ -1,0 +1,189 @@
+
+.content_table{
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.params{
+
+    width: 100%;
+   
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+.params input{
+ 
+    height: 30px;
+    margin: 0%;
+    padding: 0%;
+    margin: 0%;
+    font-size: 14px;
+    
+}
+.params select{
+    
+    padding: 0px;
+    font-size: 14px;
+    height: 30px;
+    margin: 0%;
+    z-index: 10;
+    
+}
+.params select, input{
+    
+    width: 20%;
+}
+.content_total{
+    background-color: #242424a7;
+    width: 100%;
+    height: 15%;
+    display: flex; 
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+.promedios{
+    background-color: #4e4e4ea7;
+   
+}
+.content_total div{
+ 
+   
+    width: 16.66%;
+    
+    display: flex;
+    justify-content: center;
+
+}
+.content_total div span{
+ 
+    margin-left: 5px;
+}
+
+
+.table{
+   
+    width: 100;
+    min-height: 74%;
+    max-height: 70%;
+    display: block;
+    overflow-y: scroll;  
+    padding: 0%;
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.table thead{
+    
+    color: white;
+    background-color: #0263a3;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+.table thead tr{
+  
+    display: block;
+    width: 100%;
+  
+}
+.table thead tr th{
+    
+    display: inline-block;
+    width: 16.666%;  
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+/* cuerpo de la table */
+
+.table tbody{
+   
+    display: block;
+    width: 100%;
+    height: auto;
+   
+}
+.table tbody tr{
+   
+    display: block;
+    width: 100%;
+    height: 45px;
+
+ 
+  
+}
+.table tbody tr th{
+
+    border: 1px #242424a7 solid;
+    display: inline-block;
+    width: 16.666%;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 40px;
+    
+  
+}
+.table tbody tr:hover{
+    
+    background-color: #719cdd;
+}
+
+.cont_acc{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  
+}
+.cont_acc  p{
+ margin: 10px;
+}
+
+.update_alim{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+}
+.update_alim:hover{
+   
+    background-color:#1872f8;
+    cursor: pointer;
+}
+.delete_alim{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    border: 0px;
+}
+.delete_alim:hover{
+    background-color: #d06383;
+    cursor: pointer;
+}
+
